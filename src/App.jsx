@@ -7,19 +7,7 @@ function App() {
 
   return (
     <>
-      <Router>
-      <div>
-        <Navbar />
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/proyectos" component={Projects} />
-          <Route path="/sobre-mi" component={About} />
-          <Route path="/contacto" component={Contact} />
-        </Switch>
-      </div>
-    </Router>
-  );
-}
+     
     </>
   )
 }
